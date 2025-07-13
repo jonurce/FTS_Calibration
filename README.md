@@ -44,8 +44,8 @@ They are chronologically ordered from 1 to 5:
 └──5_read_calibrated_values_quadratic.py
 
 **Final results** are saved in the next folder:  
-└──Datasets  
-    └──12_final_extra_bounded  
+* └──Datasets  
+    * └──12_final_extra_bounded  
         ├──data  
         ├──results  
         ├──train  
