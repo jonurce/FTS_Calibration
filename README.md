@@ -13,7 +13,8 @@ The paper comes with its own GitHub repository, which runs the sensor and perfor
 However, I did not find the code for performing the calibration in the original code, so I created this project for doing so, using Python without ROS.
 
 # Python scripts
-Each Python script has an explanation of what it does at the top of the file:  
+Each Python script has an explanation of what it does at the top of the file.
+They are chronologically ordered from 0 to 5:  
 ├──0_get_data_sensONE.py  
 ├──1_get_data_centered_mass.py  
 ├──1_get_data_offcentered_mass.py  
@@ -24,8 +25,8 @@ Each Python script has an explanation of what it does at the top of the file:
 ├──3_linearization_quadratic.py    
 ├──4_validation.py   
 ├──4_validation_quadratic.py   
-├──read_calibrated_values.py   
-└──read_calibrated_values_quadratic.py
+├──5_read_calibrated_values.py   
+└──5_read_calibrated_values_quadratic.py
 
 # Example results
 Explain example results
