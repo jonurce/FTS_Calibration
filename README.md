@@ -17,13 +17,13 @@ For this approach, a SensONE FTS (https://www.botasys.com/force-torque-sensors/s
 
 The main reason for this approach to fail is that there was a **noticeable jump in wrench values for every time the code was run**.
 
-The python script and the collected data showing the jumps is available in:
-├──Datasets  
-│    └──0_SensOne_jumps  
-│       ├──x-axis   
-│       ├──y-axis   
-│       └──z-axis   
-└──0_get_data_sensONE.py  
+The python script and the collected data showing the jumps is available in:  
+- Datasets
+  - 0_SensOne_jumps
+    - x-axis  
+    - y-axis 
+    - z-axis 
+- 0_get_data_sensONE.py  
 
 ## Calibration approach 1: Known mass and orientation
 For this approach, a known mass was used, attached to the 3D printed sensor using a jig, and the FTS was attached to a UR3e robotic arm to know the orientation.
@@ -31,26 +31,26 @@ For this approach, a known mass was used, attached to the 3D printed sensor usin
 Each **Python script** has an explanation of what it does at the top of the file.
 They are chronologically ordered from 1 to 5:  
 
-├──1_get_data_centered_mass.py  
-├──1_get_data_offcentered_mass.py  
-├──2_merge_data.py    
-├──2_plot_data.py  
-├──2_s_plot_data.py   
-├──3_linearization.py   
-├──3_linearization_quadratic.py    
-├──4_validation.py   
-├──4_validation_quadratic.py   
-├──5_read_calibrated_values.py   
-└──5_read_calibrated_values_quadratic.py
+* 1_get_data_centered_mass.py
+* 1_get_data_offcentered_mass.py
+* 2_merge_data.py
+* 2_plot_data.py
+* 2_s_plot_data.py
+* 3_linearization.py
+* 3_linearization_quadratic.py
+* 4_validation.py
+* 4_validation_quadratic.py
+* 5_read_calibrated_values.py
+* 5_read_calibrated_values_quadratic.py
 
 **Final results** are saved in the next folder:  
-* └──Datasets  
-    * └──12_final_extra_bounded  
-        ├──data  
-        ├──results  
-        ├──train  
-        ├──val  
-        └──description.txt
+* Datasets
+  * 12_final_extra_bounded
+    * data  
+    * results 
+    * train  
+    * val  
+    * description.txt
 
 ## Future work
 All the scripts can be put together in one file that makes the entire calibration, communicating with the UR3e to move it and get the orientation at each timestep. This can be done using ROS.
