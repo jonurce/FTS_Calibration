@@ -13,7 +13,7 @@ The paper comes with its own GitHub repository, which runs the sensor and perfor
 However, I did not find the code for performing the calibration in the original code, so I created this project for doing so, using Python without ROS.
 
 # Python scripts
-Each Python script has an explanation of what it does at the top of the file:
+Each Python script has an explanation of what it does at the top of the file:  
 ├──0_get_data_sensONE.py  
 ├──1_get_data_centered_mass.py  
 ├──1_get_data_offcentered_mass.py  
