@@ -12,10 +12,24 @@ The paper comes with its own GitHub repository, which runs the sensor and perfor
 
 However, I did not find the code for performing the calibration in the original code, so I created this project for doing so, using Python without ROS.
 
-# Python scripts
+# Calibration approach 0: Using another calibrated FTS (failed)
+For this approach, a SensONE FTS (https://www.botasys.com/force-torque-sensors/sensone) was used for computing the estimated wrench, using part of the code from https://gitlab.com/botasys/python_interface (check dependencies there).
+
+The main reason for this approach to fail is that there was a **noticeable jump in wrench values for every time the code was run**.
+
+The python script and the collected data showing the jumps is available in:
+├──Datasets  
+│    └──0_SensOne_jumps  
+│        ├──x-axis   
+│        ├──y-axis   
+│        └──z-axis   
+└──0_get_data_sensONE.py  
+
+# Calibration approach 1: Known mass and orientation
+## Python scripts
 Each Python script has an explanation of what it does at the top of the file.
-They are chronologically ordered from 0 to 5:  
-├──0_get_data_sensONE.py  
+They are chronologically ordered from 1 to 5:  
+
 ├──1_get_data_centered_mass.py  
 ├──1_get_data_offcentered_mass.py  
 ├──2_merge_data.py    
@@ -28,8 +42,14 @@ They are chronologically ordered from 0 to 5:
 ├──5_read_calibrated_values.py   
 └──5_read_calibrated_values_quadratic.py
 
-# Example results
-Explain example results
+## Final results
+Final results are saved in the next folder:  
+└──Datasets  
+    └──12_final_extra_bounded  
+        ├──data  
+        ├──results  
+        ├──train  
+        ├──val  
+        └──description.txt
+ 
 
-├──Datasets
-│  └──12_final_extra_bounded  

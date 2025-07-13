@@ -1,3 +1,4 @@
 Datasets/*
+!Datasets/0_SensOne_jumps
 !Datasets/12_final_extra_bounded
 SKETCH.py
