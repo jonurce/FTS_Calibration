@@ -1,9 +1,12 @@
 # 3D Printed Force-Torque Sensor (FTS) Calibration
 
 ## Overview
-FTS_Calibration is a Python-based project for calibrating Force/Torque Sensors (FTS) used in robotics.
+FTS_Calibration is a Python-based project for calibrating Force/Torque Sensors (FTS) used in robotic arms.
 
 This repository provides tools and scripts to process sensor data, perform calibration, and validate results, ensuring accurate force and torque measurements.
+
+More details can be found in the documentation of the project:
+[Project documentation in slides format](Slides/3D_printed_FTS_Calibration_Jon_Urcelay.pdf)
 
 ## Original 3D Printed FTS and code
 The original 3D printed FTS is taken from the next paper: https://ieeexplore.ieee.org/document/9133543
