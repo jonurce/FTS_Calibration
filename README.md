@@ -17,8 +17,6 @@ For this approach, a SensONE FTS (https://www.botasys.com/force-torque-sensors/s
 
 The main reason for this approach to fail is that there was a **noticeable jump in wrench values for every time the code was run**.
 
-<span style="color:red">red text</span>
-
 The python script and the collected data showing the jumps is available in:  
 - Datasets
   - 0_SensOne_jumps
@@ -48,8 +46,10 @@ They are chronologically ordered from 1 to 5:
 **Final results** are saved in the next folder:  
 * Datasets
   * 12_final_extra_bounded
-    * data  
+    * data: includes all collected data in different CSV files and the final "data.csv" removing the datapoints out of bounds.
     * results 
+      * params
+      * validation
     * train  
     * val  
     * description.txt
