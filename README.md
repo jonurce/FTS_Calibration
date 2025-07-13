@@ -23,7 +23,7 @@ Each Python script has an explanation of what it does at the top of the file:
 ├──3_linearization.py   
 ├──3_linearization_quadratic.py    
 ├──4_validation.py   
-├──4_validation_quadratic.py 
+├──4_validation_quadratic.py   
 ├──read_calibrated_values.py   
 └──read_calibrated_values_quadratic.py
 
