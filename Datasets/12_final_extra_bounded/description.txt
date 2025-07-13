@@ -1,0 +1,10 @@
+Data: 0-4 mass positions x (6 orthogonal poses + 6 random poses) = 60 poses;
+                x 2.000 datapoints each pose = 120.000 datapoints
+                * datapoints out of bounds deleted: total 93.585 datapoints
+
+Training data: random 80% of data
+Validation data: random 20% of data
+
+Results:
+
+
