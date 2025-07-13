@@ -43,13 +43,13 @@ They are chronologically ordered from 1 to 5:
 * 5_read_calibrated_values.py
 * 5_read_calibrated_values_quadratic.py
 
-**Final results** are saved in the next folder:  
+**Final results** are saved in the next folder, showing that the quadratic regression model provide the best results:  
 * Datasets
   * 12_final_extra_bounded
-    * data: includes all collected data in different CSV files and the final "data.csv" removing the datapoints out of bounds.
+    * data
     * results 
       * params
-      * validation
+      * validation - final plots are here
     * train  
     * val  
     * description.txt

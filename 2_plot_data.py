@@ -1,3 +1,12 @@
+"""
+
+This file reads a CSV file with collected data and then generates 3 plots:
+1. Forces vs time
+2. Torque vs time
+3. Raw sensor values vs time
+
+"""
+
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.cm as cm

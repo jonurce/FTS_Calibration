@@ -1,3 +1,15 @@
+"""
+
+This file reads all the collected data inside the same folder but in different CSV files,
+and it merges everything into a single CSV file.
+
+It can be used to filter out (or not) datapoints out of the bounds for the raw sensor values.
+
+Finally, it separates the dataset into training and validation data,
+using randomly chosen datapoints and separating into 80% and 20% respectively.
+
+"""
+
 import pandas as pd
 import glob
 import os

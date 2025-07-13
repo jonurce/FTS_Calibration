@@ -1,3 +1,10 @@
+"""
+
+This file reads a CSV file with collected data, takes the raw sensor values, sorts EACH of
+(s0-s7) them from smaller to bigger, and finally plots it.
+
+"""
+
 import pandas as pd
 import matplotlib.pyplot as plt
 

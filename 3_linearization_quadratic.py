@@ -1,3 +1,12 @@
+"""
+
+Similarly to "3_linearization.py", this file reads the CSV file with collected data (the merged one),
+and then solves the linear and quadratic coefficients C, L and Q using the OLS method.
+
+It can be easily changed from Linear Regression, to Ridge or Lasso.
+
+"""
+
 import pandas as pd
 import numpy as np
 from sklearn.linear_model import LinearRegression, Ridge, Lasso

@@ -1,9 +1,9 @@
 """
 
-This file collects data from both SensONE and 3D printed sensor at the same time
+This file collects data from both SensONE and 3D printed sensor at the same time.
 
 For each timestamp, the wrench is collected from the SensONE (in its own frame)
-and the 8 raw sensor values are collected from the 3D printed sensor (s_0 to s_7)
+and the 8 raw sensor values are collected from the 3D printed sensor (s_0 to s_7).
 
 The results are stored in a csv file, each row containing the next values:
 < Timestamp, Fx, Fy, Fz, Mx, My, Mz, s0, s1, s2, s3, s4, s5, s6, s7 >

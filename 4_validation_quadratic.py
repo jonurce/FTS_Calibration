@@ -1,11 +1,18 @@
 """
 
-This file collects data from validation data (s_0 to s_7),
-and uses the calibration matrices C and L to obtain the wrench W=C+LS
+This file does the same as "4_validation.py", but including quadratic terms.
 
-Then the error is computed by: estimated wrench - wrench from validation data
+It uses the raw sensor values from validation data (s_0 to s_7),
+to compute the estimated wrench using the calibration matrices C and L: W_est = C + LS + QS^2.
 
-Finally, the error is plotted in two plots: one for Forces and another for Moments
+It also reads the wrench values from the validation data (W_ref).
+
+Then the error is computed by: Error = W_est - W_ref
+
+Finally, the error is plotted in three plots:
+1. Force error vs time for each [Fx, Fy, Fz]
+2. Torque error vs time for each [Mx, My, Mz]
+3. Histogram of error for each wrench value [Fx, Fy, Fz, Mx, My, Mz]
 
 """
 

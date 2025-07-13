@@ -1,9 +1,8 @@
 """
 
-This file collects data from the 3D printed sensor (s_0 to s_7),
-and uses the calibration matrices C and L to obtain the wrench W=C+LS
-
-The wrench is printed on screen in real time
+This file reads data in real time from the 3D printed sensor (s_0 to s_7),
+and uses the calibration matrices C and L to print the wrench (W = C + LS)
+on the terminal in real time.
 
 """
 import math

@@ -1,3 +1,14 @@
+"""
+
+This file does the same as "5_read_calibrated_values.py", but including
+quadratic terms.
+
+It reads data in real time from the 3D printed sensor (s_0 to s_7),
+and uses the calibration matrices C, L and Q to print the wrench (W = C + LS + QS^2)
+on the terminal in real time.
+
+"""
+
 import math
 import sys
 import struct
