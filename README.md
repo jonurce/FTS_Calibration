@@ -43,7 +43,7 @@ They are chronologically ordered from 1 to 5:
 * 5_read_calibrated_values.py
 * 5_read_calibrated_values_quadratic.py
 
-**Final results** are saved in the next folder, showing that the quadratic regression model provide the best results:  
+**Final results** are saved in the next folder:   
 * Datasets
   * 12_final_extra_bounded
     * data
@@ -53,6 +53,8 @@ They are chronologically ordered from 1 to 5:
     * train  
     * val  
     * description.txt
+
+The results show that the **quadratic regression model without Ridge or Lasso** provides the best results: 
 
 ![FTS Final Calibration Error](Datasets/12_final_extra_bounded/results/validation/error_val_lin_quadratic.png)
 
