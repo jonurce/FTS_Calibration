@@ -14,16 +14,21 @@ However, I did not find the code for performing the calibration in the original 
 
 # Python scripts
 Each Python script has an explanation of what it does at the top of the file:
-
-├──get_data_centered_mass.py  
-│
-
-└──
-
-```
-code
-```
-
+├──0_get_data_sensONE.py  
+├──1_get_data_centered_mass.py  
+├──1_get_data_offcentered_mass.py  
+├──2_merge_data.py   
+├──2_plot_data.py 
+├──2_s_plot_data.py 
+├──3_linearization.py 
+├──3_linearization_quadratic.py  
+├──4_validation.py   
+├──4_validation_quadratic.py 
+├──read_calibrated_values.py   
+└──read_calibrated_values_quadratic.py
 
 # Example results
 Explain example results
+
+├──Datasets
+│  └──12_final_extra_bounded  
