@@ -54,6 +54,10 @@ They are chronologically ordered from 1 to 5:
     * val  
     * description.txt
 
+![FTS Final Calibration Error](Datasets/12_final_extra_bounded/results/validation/error_val_lin_quadratic.png)
+
+![FTS Final Calibration Error Distribution](Datasets/12_final_extra_bounded/results/validation/error_dist_val_lin_quadratic.png)
+
 ## Future work
 All the scripts can be put together in one file that makes the entire calibration, communicating with the UR3e to move it and get the orientation at each timestep. This can be done using ROS.
  
