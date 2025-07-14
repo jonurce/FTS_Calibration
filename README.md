@@ -11,11 +11,11 @@ More details can be found in the documentation of the project:
 All the CAD files used during the project (3D printed) can be found in [CAD Files](CAD_files), which is distributed as follows:  
 
 ´´´
-CAD_files
-├── 3D_printed_FTS            # 3D files of the FTS + customized base
-├── Mass_calibration_jig      # Jigs for holding the mass in FTS: centered and off-centered
-├── SensONE_bias_jig          # Jig for calibrating the bias of the SensONE (finally not used)
-└── SensONE_calibration_jig   # Jig for calibrating the FTS using a calibrated SensONE (finally not used)
+CAD_files  
+├── 3D_printed_FTS            # 3D files of the FTS + customized base  
+├── Mass_calibration_jig      # Jigs for holding the mass in FTS: centered and off-centered  
+├── SensONE_bias_jig          # Jig for calibrating the bias of the SensONE (finally not used)  
+└── SensONE_calibration_jig   # Jig for calibrating the FTS using a calibrated SensONE (finally not used)  
 ´´´
 
 ## Original 3D Printed FTS and code
