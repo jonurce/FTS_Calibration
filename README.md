@@ -1,7 +1,7 @@
 # 3D Printed Force-Torque Sensor (FTS) Calibration
 
-<img height="400" alt="image" src="https://github.com/user-attachments/assets/312a010a-f886-4d7c-aa61-2a6c92683fa1" />
-<img height="400" alt="image" src="https://github.com/user-attachments/assets/7b62be2a-497c-4290-8b50-d15bd102a736" />
+<img height="300" alt="image" src="https://github.com/user-attachments/assets/312a010a-f886-4d7c-aa61-2a6c92683fa1" />
+<img height="300" alt="image" src="https://github.com/user-attachments/assets/7b62be2a-497c-4290-8b50-d15bd102a736" />
 
 
 ## Overview
